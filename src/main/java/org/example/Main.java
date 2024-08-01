@@ -121,7 +121,7 @@ public class Main {
                     if (deletedMethods >= 1) {
                         System.out.println(deletedMethods + " metodos eliminados! (" + (System.currentTimeMillis() - time) + " ms)");
                     } else {
-                        System.err.println("No se insertó ningún método (" + (System.currentTimeMillis() - time) + " ms)");
+                        System.err.println("No se eliminó ningún método (" + (System.currentTimeMillis() - time) + " ms)");
                     }
 
                 } catch (SQLException e) {
